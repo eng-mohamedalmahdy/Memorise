@@ -26,16 +26,16 @@ struct ThemesRepository {
                                    "🏎", "🚓", "🚑", "🚒", "🚐",
                                    "🛻", "🚚", "🚜", "🚛", "🛺"]
 
-    static func getTheme(_ theme: Theme) -> MemorizeGameModel<String>.Theme {
+    static func getTheme(_ theme: Theme) -> MemoriseGameModel<String>.Theme {
         switch theme {
         case .Emojies:
-            return MemorizeGameModel<String>.Theme(name: .Emojies, cardSet: ThemesRepository.emojies.shuffled(), backgroundColor: .blue)
+            return MemoriseGameModel<String>.Theme(name: .Emojies, cardSet: ThemesRepository.emojies.shuffled(), backgroundColor: .blue)
 
         case .Hearts:
-            return MemorizeGameModel<String>.Theme(name: .Hearts, cardSet: ThemesRepository.hearts.shuffled(), backgroundColor: .red)
+            return MemoriseGameModel<String>.Theme(name: .Hearts, cardSet: ThemesRepository.hearts.shuffled(), backgroundColor: .red)
 
         case .Vehicles:
-            return MemorizeGameModel<String>.Theme(name: .Vehicles, cardSet: ThemesRepository.vehicles.shuffled(), backgroundColor: .orange)
+            return MemoriseGameModel<String>.Theme(name: .Vehicles, cardSet: ThemesRepository.vehicles.shuffled(), backgroundColor: .orange)
         }
     }
 

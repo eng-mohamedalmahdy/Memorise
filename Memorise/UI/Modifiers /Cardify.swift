@@ -14,9 +14,10 @@ struct Cardify: ViewModifier, AnimatableModifier {
 
     var isFacedUp: Bool
     var rotationAngle: Double
-    {
-        get { isFacedUp ? 0 : 180 }
-        set { }
+
+    init(isFacedUp: Bool) {
+        self.isFacedUp = isFacedUp
+        rotationAngle = isFacedUp ? 0 : 180
     }
     var animatableData: Double {
         get { rotationAngle }

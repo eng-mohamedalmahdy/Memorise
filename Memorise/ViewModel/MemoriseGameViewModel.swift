@@ -15,19 +15,19 @@ class MemoriseGameViewModel: ObservableObject {
 
     @Published private var model = initaliseCards(theme: .Emojies)
 
-    private static func initaliseCards(theme: ThemesRepository.Theme) -> MemorizeGameModel<String> {
-        
+    private static func initaliseCards(theme: ThemesRepository.Theme) -> MemoriseGameModel<String> {
+
         let gameTheme = ThemesRepository.getTheme(theme)
-        return MemorizeGameModel(theme: gameTheme, numberOfCardPairs: Int.random(in: 2..<gameTheme.cardSet.count)) { i in gameTheme.cardSet[i] }
+        return MemoriseGameModel(theme: gameTheme, numberOfCardPairs: Int.random(in: 2..<gameTheme.cardSet.count)) { i in gameTheme.cardSet[i] }
     }
 
 
 
-    var cards: [MemorizeGameModel<String>.Card] {
+    var cards: [MemoriseGameModel<String>.Card] {
         model.cards
     }
 
-    var theme: MemorizeGameModel<String>.Theme {
+    var theme: MemoriseGameModel<String>.Theme {
         model.theme
     }
 
@@ -37,12 +37,17 @@ class MemoriseGameViewModel: ObservableObject {
         model.theme = ThemesRepository.getTheme(theme)
     }
 
-    func chooseCard(_ card: MemorizeGameModel<String>.Card) {
+    func chooseCard(_ card: MemoriseGameModel<String>.Card) {
         model.choose(card)
     }
 
     func newGame(theme: ThemesRepository.Theme) {
+        model.score = 0
         model = MemoriseGameViewModel.initaliseCards(theme: theme)
+    }
+
+    func flipCard(_ card: MemoriseGameModel<String>.Card) {
+        model.flip(card: card)
     }
 
 }

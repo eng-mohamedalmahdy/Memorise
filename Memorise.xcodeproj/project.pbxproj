@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		ED1EB34026B86C9B0096AE15 /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1EB33F26B86C9B0096AE15 /* Pie.swift */; };
-		ED2FFE1826B3945D00BF41B7 /* MemorizeGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2FFE1726B3945D00BF41B7 /* MemorizeGameModel.swift */; };
+		ED2FFE1826B3945D00BF41B7 /* MemoriseGameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2FFE1726B3945D00BF41B7 /* MemoriseGameModel.swift */; };
 		ED2FFE1A26B39D8D00BF41B7 /* MemoriseGameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2FFE1926B39D8D00BF41B7 /* MemoriseGameViewModel.swift */; };
 		ED4A142626BE81C0009FFFC7 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4A142526BE81C0009FFFC7 /* Cardify.swift */; };
 		ED51012A26AFB5B400492068 /* MemoriseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED51012926AFB5B400492068 /* MemoriseApp.swift */; };
@@ -22,7 +22,7 @@
 
 /* Begin PBXFileReference section */
 		ED1EB33F26B86C9B0096AE15 /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
-		ED2FFE1726B3945D00BF41B7 /* MemorizeGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeGameModel.swift; sourceTree = "<group>"; };
+		ED2FFE1726B3945D00BF41B7 /* MemoriseGameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriseGameModel.swift; sourceTree = "<group>"; };
 		ED2FFE1926B39D8D00BF41B7 /* MemoriseGameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoriseGameViewModel.swift; sourceTree = "<group>"; };
 		ED4A142526BE81C0009FFFC7 /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
 		ED51012626AFB5B400492068 /* Memorise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorise.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,7 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				ED9C690F26B641E20010DED9 /* ThemesRepository.swift */,
-				ED2FFE1726B3945D00BF41B7 /* MemorizeGameModel.swift */,
+				ED2FFE1726B3945D00BF41B7 /* MemoriseGameModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -212,7 +212,7 @@
 				ED1EB34026B86C9B0096AE15 /* Pie.swift in Sources */,
 				ED4A142626BE81C0009FFFC7 /* Cardify.swift in Sources */,
 				EDAB1F5326B82954008ADD4A /* AspectVGrid.swift in Sources */,
-				ED2FFE1826B3945D00BF41B7 /* MemorizeGameModel.swift in Sources */,
+				ED2FFE1826B3945D00BF41B7 /* MemoriseGameModel.swift in Sources */,
 				ED9C691026B641E20010DED9 /* ThemesRepository.swift in Sources */,
 				ED51013926AFD11100492068 /* CardImageView.swift in Sources */,
 				ED51012A26AFB5B400492068 /* MemoriseApp.swift in Sources */,
