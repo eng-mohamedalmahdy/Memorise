@@ -2,6 +2,8 @@
 Memorising game created with swift.
 
 A project for Stanford CS193p course at : https://cs193p.sites.stanford.edu/
+
+
 A fun memorising game made with mvvm and swift UI
 
 
@@ -14,4 +16,4 @@ A fun memorising game made with mvvm and swift UI
       <img src="https://user-images.githubusercontent.com/49305252/137028182-5921d133-ad27-4b14-964c-8948a3742501.png" alt="screenshot" width="200"/>
       <img src="https://user-images.githubusercontent.com/49305252/137028212-40deeb65-23b5-49ff-8c38-ae9a93e01603.png" alt="screenshot" width="200"/>
 		</div>
-	</div>
+</div>
